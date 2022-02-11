@@ -1,0 +1,23 @@
+nav {
+  height: 3rem;
+  width: 100%;
+  background-color: rgb(46, 77, 46);
+  color: white;
+  overflow: hidden;
+}
+
+.rowFlex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0px;
+  list-style: none;
+}

@@ -1,0 +1,44 @@
+footer {
+  height: 40vh;
+  width: 100%;
+  background-color: rgb(46, 77, 46);
+  color: white;
+  overflow-x: hidden;
+}
+
+.footerNav {
+  margin: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.footerNav li {
+  margin: 10px;
+}
+
+.footerContainer {
+  height: 80%;
+  width: 60%;
+}
+
+.footerFlex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionLine {
+  border-bottom: 1px solid white;
+}
+
+.section2-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section2-flex div {
+  padding: 10px;
+}
