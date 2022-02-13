@@ -12,6 +12,7 @@ a:hover {
 body {
   margin: 0px;
   height: 100%;
+  font-family: serif;
 }
 main {
   display: grid;
@@ -36,19 +37,55 @@ main {
 }
 
 .imageCard1 img {
-  height: 8rem;
-  width: 22rem;
+  height: 6rem;
+  width: 15rem;
 }
 
 .imageCard2 img {
-  height: 20rem;
-  width: 35rem;
-  margin-left: 20px;
+  height: 10rem;
+  width: 20rem;
 }
-
 #contactForm {
   height: 60rem;
-  width: 40rem;
+  width: 18rem;
 }
 
+@media (min-width: 500px) and (max-width: 659px) {
+  #contactForm {
+    height: 60rem;
+    width: 25rem;
+  }
+  .imageCard1 img {
+    height: 5rem;
+    width: 12rem;
+  }
+
+  .imageCard2 img {
+    height: 10rem;
+    width: 20rem;
+  }
+}
+
+@media (min-width: 660px) {
+  #contactForm {
+    height: 60rem;
+    width: 40rem;
+  }
+  .imageCard1 img {
+    height: 8rem;
+    width: 22rem;
+  }
+
+  .imageCard2 img {
+    height: 20rem;
+    width: 35rem;
+    margin-left: 20px;
+  }
+}
 /* 3 break points are required */
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
