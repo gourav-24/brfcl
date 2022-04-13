@@ -78,12 +78,20 @@ section:nth-child(2n) {
   justify-content: space-around;
 }
 
+.personInfo {
+  text-align: center;
+}
+
 .profilePicture {
   height: 120px;
   width: 120px;
   border-radius: 50%;
-  border: 1px solid black;
   overflow: hidden;
+}
+
+.profilePicture img {
+  height: 120px;
+  width: 120px;
 }
 
 .profileData {

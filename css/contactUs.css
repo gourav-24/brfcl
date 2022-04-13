@@ -46,13 +46,13 @@ main {
   width: 20rem;
 }
 #contactForm {
-  height: 60rem;
+  height: 80rem;
   width: 18rem;
 }
 
 @media (min-width: 500px) and (max-width: 659px) {
   #contactForm {
-    height: 60rem;
+    height: 70rem;
     width: 25rem;
   }
   .imageCard1 img {
